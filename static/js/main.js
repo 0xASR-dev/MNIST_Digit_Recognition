@@ -40,8 +40,11 @@ document.addEventListener('DOMContentLoaded', () => {
 
     predictBtn.addEventListener('click', async () => {
         const imageDataURL = canvas.toDataURL('image/png');
-        
-        const response = await fetch('/predict', {
+
+        // Use local Flask server endpoint
+        const API_URL = '/predict';
+
+        const response = await fetch(API_URL, {
             method: 'POST',
             headers: {
                 'Content-Type': 'application/json',
