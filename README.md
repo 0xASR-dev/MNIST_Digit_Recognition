@@ -52,13 +52,11 @@ A deep learning-powered web application that recognizes handwritten digits (0-9)
   - Convolutional Neural Network (CNN)
   - Data augmentation for improved generalization
   - Dropout layers for regularization
->>>>>>> d2352feccc0bd42a72ffbcab0c6cc4e39345bdae
 
 ## 📁 Project Structure
 
 ```
 MNIST_Digit_Recognition/
-<<<<<<< HEAD
 ├── app.py                 # Flask application with prediction endpoint
 ├── train_model.py         # CNN model training script
 ├── mnist_model.keras      # Trained Keras model
@@ -93,7 +91,7 @@ MNIST_Digit_Recognition/
    .\venv\Scripts\activate
    
    # Linux/Mac
-=======
+```
 │
 ├── app.py                  # Flask web application
 ├── train_model.py          # Model training script
@@ -133,7 +131,6 @@ MNIST_Digit_Recognition/
    venv\Scripts\activate
    
    # On macOS/Linux
->>>>>>> d2352feccc0bd42a72ffbcab0c6cc4e39345bdae
    source venv/bin/activate
    ```
 
@@ -142,7 +139,6 @@ MNIST_Digit_Recognition/
    pip install -r requirements.txt
    ```
 
-<<<<<<< HEAD
 4. **Run the application**
 =======
 ## 🎯 Usage
@@ -150,21 +146,17 @@ MNIST_Digit_Recognition/
 ### Running the Web Application
 
 1. **Start the Flask server**
->>>>>>> d2352feccc0bd42a72ffbcab0c6cc4e39345bdae
    ```bash
    python app.py
    ```
 
-<<<<<<< HEAD
 5. **Open in browser**
 =======
 2. **Open your browser** and navigate to:
->>>>>>> d2352feccc0bd42a72ffbcab0c6cc4e39345bdae
    ```
    http://127.0.0.1:5000
    ```
 
-<<<<<<< HEAD
 ## 🧠 Model Architecture
 
 The CNN model consists of:
@@ -196,13 +188,11 @@ To retrain the model:
 
 If you want to retrain the model with different parameters:
 
->>>>>>> d2352feccc0bd42a72ffbcab0c6cc4e39345bdae
 ```bash
 python train_model.py
 ```
 
 This will:
-<<<<<<< HEAD
 - Download the MNIST dataset
 - Train for 15 epochs with data augmentation
 - Save the model as `mnist_model.keras`
@@ -366,6 +356,3 @@ This project is licensed under the MIT License - see the LICENSE file for detail
 For questions or suggestions, please open an issue on the [GitHub repository](https://github.com/0xASR-dev/MNIST_Digit_Recognition).
 
 ---
-
-**Made with ❤️ using TensorFlow and Flask**
->>>>>>> d2352feccc0bd42a72ffbcab0c6cc4e39345bdae
