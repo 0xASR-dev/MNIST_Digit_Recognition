@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # MNIST Digit Recognition 🔢
 
 A web application that uses a Convolutional Neural Network (CNN) to recognize handwritten digits (0-9) drawn on an HTML canvas.
